@@ -141,14 +141,12 @@ async def process_shop_data():
         for section in sections:
             section_id = section.get("sectionID", "N/A")
             display_name = section.get("displayName", "N/A")
-            category = section.get("category")
             metadata = section.get("metadata", {})
-            background_url = metadata.get("background", {}).get("customTexture")
 
             new_section = {
                 "display_name": display_name,
-                "category": category if category else None,
-                "background_url": background_url if background_url else "No Background",
+                "category": section.get("category") or None,
+                "background_url": metadata.get("background", {}).get("customTexture") or "No Background",
                 "group_count": len(metadata.get("offerGroups", [])),
                 "billboard": sum(1 for group in metadata.get("offerGroups", []) if group.get("displayType") == "billboard"),
                 "contexts": sorted(set(rank.get("context", "Unknown") for rank in metadata.get("stackRanks", []))),
@@ -157,13 +155,9 @@ async def process_shop_data():
 
             new_data[section_id] = new_section
 
-            # Compare other fields except release dates
-            old_section = old_data.get(section_id, {})
-            old_section_without_dates = {k: v for k, v in old_section.items() if k != "release_dates"}
-            new_section_without_dates = {k: v for k, v in new_section.items() if k != "release_dates"}
-
-            if old_section_without_dates != new_section_without_dates:
-                logging.info(f"New or updated section detected: {display_name} (ID: {section_id})")
+            # Detect new section IDs only
+            if section_id not in old_data:
+                logging.info(f"New section detected: {display_name} (ID: {section_id})")
                 embed_dict = create_embed_for_section(section, new_section)
                 tasks.append(send_to_discord(embed_dict))
 

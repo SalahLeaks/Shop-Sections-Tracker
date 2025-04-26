@@ -1,196 +1,5 @@
 {
-    "BladeDeadpool": {
-        "display_name": "Marvel",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/31-40-billboard-motormonth-sectionbg-v1-1920x1080-9e0f7b2eaabc.jpg",
-        "group_count": 6,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
-        ]
-    },
-    "MortalKombatLambo": {
-        "display_name": "Klassic Kombat",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/sk-Billboard_SoapPocket_SectionBG-07c572d0.png",
-        "group_count": 6,
-        "billboard": 1,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
-        ]
-    },
-    "Dune": {
-        "display_name": "Dune",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/billboard-brightdisk-sectionbg-1920x1080-dde47768eb2d.jpg",
-        "group_count": 2,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
-        ]
-    },
-    "WalkingDead1": {
-        "display_name": "Survivors In Arms",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/default-passes-crew-sectionbg-v1-2048x1024-bc462d3fcbd4.png",
-        "group_count": 2,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
-        ]
-    },
-    "Adidas2-1": {
-        "display_name": "Adidas",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/sk-Section_BG-(1)-f70ad2df.png",
-        "group_count": 6,
-        "billboard": 1,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z"
-        ]
-    },
-    "ClixBundle": {
-        "display_name": "Clix",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/sk-BillBoard_TwilightSpot_Section_BG-e6548a87.png",
-        "group_count": 3,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z"
-        ]
-    },
-    "Shoes205": {
-        "display_name": "Get Your Kicks",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/breathtalecalla-bg-top-level-1920x1080-0225c3cbc45e.jpg",
-        "group_count": 2,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
-        ]
-    },
-    "Troopers": {
-        "display_name": "READY 4 MAYHEM",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/sk-S34_MarchMadness_StoreBG-e4e4bd33.png",
-        "group_count": 2,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z"
-        ]
-    },
-    "SignatureStyle0401": {
-        "display_name": "Battle Ready",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/billboard-pt-sectionbg-1920x1080-76d621ea66bf.jpg",
-        "group_count": 3,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z"
-        ]
-    },
-    "FortniteFlow0331": {
+    "VictoryVibes0425": {
         "display_name": "Victory Vibes",
         "category": null,
         "background_url": "https://cdn2.unrealengine.com/solartheory-sectionbg-v2-1921x1081-2e7759add34c.png",
@@ -203,20 +12,146 @@
             "sparks"
         ],
         "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
         ]
     },
-    "LinkinPark": {
-        "display_name": "Linkin Park",
+    "NBAFishsticksAXO": {
+        "display_name": "Fort Ballers",
         "category": null,
-        "background_url": "https://cdn2.unrealengine.com/billboard-30-30-goldenguardantler-sectionbg-v1-1920x1080-52757b88bdbe.jpg",
+        "background_url": "https://cdn2.unrealengine.com/sk-Billboard_NBA_SectionBG-bbfd8507.png",
+        "group_count": 3,
+        "billboard": 1,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
+        ]
+    },
+    "TurtleFoes": {
+        "display_name": "Teenage Mutant Ninja Turtles",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/sk-Billboard_EarthWax_SectionBG-41bdc885.png",
+        "group_count": 7,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z"
+        ]
+    },
+    "ShoesDrop23": {
+        "display_name": "Get Your Kicks",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/billboard-sequinpie-sectionbg-1920x1080-54ef010d5bf9.jpg",
+        "group_count": 3,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
+        ]
+    },
+    "RickandMorty": {
+        "display_name": "Rick and Morty",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/background-1920x1080-60efded2cee0.jpg",
+        "group_count": 4,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
+        ]
+    },
+    "SignatureStyle0425": {
+        "display_name": "Battle Ready",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/billboard-pt-sectionbg-1920x1080-76d621ea66bf.jpg",
+        "group_count": 5,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z"
+        ]
+    },
+    "NoSweat0419": {
+        "display_name": "No Sweat",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/indigo-bg-2048x1024-ed2bb275d378.png",
+        "group_count": 3,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z"
+        ]
+    },
+    "JohnWick": {
+        "display_name": "John Wick",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/assassinsuit-sectionbg-v1-1920x1080-29ce37b89444.png",
         "group_count": 2,
         "billboard": 0,
         "contexts": [
@@ -226,20 +161,20 @@
             "sparks"
         ],
         "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
         ]
     },
-    "DodgeRam": {
-        "display_name": "RAM 1500 RHO",
-        "category": "Start Your Engines",
-        "background_url": "https://cdn2.unrealengine.com/sk-Billboard_Rio_SectionBG-f250fe24.jpg",
+    "InkvilleGangT": {
+        "display_name": "Inkville",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/billboard-brightdisk-sectionbg-2-1920x1080-80926d882af8.jpg",
         "group_count": 1,
         "billboard": 0,
         "contexts": [
@@ -249,18 +184,75 @@
             "sparks"
         ],
         "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
         ]
     },
-    "DieselCar": {
-        "display_name": "Diesel",
+    "FamilyGuy": {
+        "display_name": "Family Guy",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/billboard-bikemold-section-1920x1080-da804c43e54f.jpg",
+        "group_count": 1,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z"
+        ]
+    },
+    "Undertaker&CodyRhodes&Becky&Bianca": {
+        "display_name": "WWE",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/sk-Billboard_ButtonCaseCombCrater_StoreBG-c8584924.png",
+        "group_count": 6,
+        "billboard": 1,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z"
+        ]
+    },
+    "Jamtracks0425": {
+        "display_name": "Jam Tracks",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/default-sparks-sectionbg-v1-1920x1080-9b27879ce008.jpg",
+        "group_count": 3,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z"
+        ]
+    },
+    "VoidBurn": {
+        "display_name": "Void Burn",
         "category": "Start Your Engines",
         "background_url": "https://cdn2.unrealengine.com/default-delmar-v1-1920x1080-ff95861876f9.png",
         "group_count": 1,
@@ -272,17 +264,17 @@
             "sparks"
         ],
         "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
         ]
     },
-    "IOWheel": {
+    "CanTruthRF": {
         "display_name": "Vehicle Accessories",
         "category": "Start Your Engines",
         "background_url": "https://cdn2.unrealengine.com/default-delmar-v1-1920x1080-ff95861876f9.png",
@@ -295,85 +287,16 @@
             "sparks"
         ],
         "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z"
         ]
     },
-    "IceSpice": {
-        "display_name": "Ice Spice",
-        "category": "Icons",
-        "background_url": "https://cdn2.unrealengine.com/billboard-livelydomino-section-1920x1080-b8cb2b1fabc4.jpg",
-        "group_count": 2,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
-        ]
-    },
-    "Hatsune": {
-        "display_name": "Hatsune Miku",
-        "category": "Icons",
-        "background_url": "https://cdn2.unrealengine.com/billboard-jadetowel-sectionbg-v2-1920x1080-fa09af01c9c8.jpg",
-        "group_count": 3,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
-        ]
-    },
-    "Jamtracks0401": {
-        "display_name": "Jam Tracks",
-        "category": "Take Your Stage",
-        "background_url": "https://cdn2.unrealengine.com/default-sparks-sectionbg-v1-1920x1080-9b27879ce008.jpg",
-        "group_count": 4,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z"
-        ]
-    },
-    "SparksInstruments67": {
-        "display_name": "Gear For Festival",
-        "category": "Take Your Stage",
-        "background_url": "https://cdn2.unrealengine.com/default-sparks-sectionbg-v1-1920x1080-9b27879ce008.jpg",
+    "FordMustangShelbyGT500": {
+        "display_name": "Ford Mustang Shelby GT500",
+        "category": "Start Your Engines",
+        "background_url": "https://cdn2.unrealengine.com/default-delmar-v1-1920x1080-ff95861876f9.png",
         "group_count": 1,
         "billboard": 0,
         "contexts": [
@@ -383,14 +306,37 @@
             "sparks"
         ],
         "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
+        ]
+    },
+    "SabrinaCarpenterBillboard": {
+        "display_name": "Sabrina Carpenter",
+        "category": "Icons",
+        "background_url": "https://cdn2.unrealengine.com/sk-Billboard_DimeBlanket_SectionBG-ddb5f1af.png",
+        "group_count": 4,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
         ]
     },
     "BattlePassCrew": {
@@ -406,14 +352,14 @@
             "sparks"
         ],
         "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
         ]
     },
     "LimitedTime": {
@@ -429,20 +375,20 @@
             "sparks"
         ],
         "release_dates": [
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-01T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
         ]
     },
-    "NoSweat1": {
-        "display_name": "No Sweat",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/billboard-dangermojo-sectionbg-1920x1080-fefc9b0fc61a.png",
+    "D4VDLocker": {
+        "display_name": "D4VD's Locker",
+        "category": "Locker Bundles",
+        "background_url": "https://cdn2.unrealengine.com/billboard-warmshadeweasel-sectionbg-1921x1080-a55a1fce9c29.jpg",
         "group_count": 2,
         "billboard": 0,
         "contexts": [
@@ -452,73 +398,20 @@
             "sparks"
         ],
         "release_dates": [
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-25T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
         ]
     },
-    "Invincible1": {
-        "display_name": "Invincible",
+    "MHA": {
+        "display_name": "My Hero Academia",
         "category": null,
-        "background_url": "https://cdn2.unrealengine.com/billboard-swisskale-sectionbg-1921x1081-41b5e6d0a426.png",
-        "group_count": 7,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
-        ]
-    },
-    "UnrealTournament": {
-        "display_name": "Gaming Legends",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/billboard-crystalglobe-sectionbg-1920x1080-64295a6409e8.png",
-        "group_count": 2,
-        "billboard": 0,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
-        ]
-    },
-    "Adidas2": {
-        "display_name": "Adidas",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/sk-Section_BG-(1)-f70ad2df.png",
-        "group_count": 3,
-        "billboard": 1,
-        "contexts": [
-            "battleRoyale",
-            "delMar",
-            "juno",
-            "sparks"
-        ],
-        "release_dates": [
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
-        ]
-    },
-    "SignatureStyle0402": {
-        "display_name": "Battle Ready",
-        "category": null,
-        "background_url": "https://cdn2.unrealengine.com/sectionbg-og-gray-1921x1081-d1515b27166e.png",
+        "background_url": "https://cdn2.unrealengine.com/31-40-billboard-motormonth-sectionbg-v1-1920x1080-9e0f7b2eaabc.jpg",
         "group_count": 3,
         "billboard": 0,
         "contexts": [
@@ -528,16 +421,35 @@
             "sparks"
         ],
         "release_dates": [
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
         ]
     },
-    "Jamtracks0402": {
-        "display_name": "Jam Tracks",
-        "category": "Take Your Stage",
-        "background_url": "https://cdn2.unrealengine.com/default-sparks-sectionbg-v1-1920x1080-9b27879ce008.jpg",
+    "JJK": {
+        "display_name": "Jujutsu Kaisen",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/sk-Billboard_PigeonChart_SectionBG.jpg",
+        "group_count": 3,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
+        ]
+    },
+    "Goldenweek0426": {
+        "display_name": "Golden Week",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/sk-GoldenWeek-Section-BG-74b1596a.png",
         "group_count": 4,
         "billboard": 0,
         "contexts": [
@@ -547,10 +459,105 @@
             "sparks"
         ],
         "release_dates": [
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z",
-            "2025-04-02T00:00:00.000Z"
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
+        ]
+    },
+    "TMNTALL": {
+        "display_name": "Teenage Mutant Ninja Turtles",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/sk-Billboard_EarthWax_SectionBG-41bdc885.png",
+        "group_count": 11,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
+        ]
+    },
+    "StageCoach": {
+        "display_name": "Rodeo Royale",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/billboard-brightdisk-sectionbg-1920x1080-dde47768eb2d.jpg",
+        "group_count": 2,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
+        ]
+    },
+    "SignatureStyle0426": {
+        "display_name": "Battle Ready",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/sk-Billboard_FlameBride_StoreBG-86433ed1.png",
+        "group_count": 7,
+        "billboard": 1,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
+        ]
+    },
+    "Jamtracks0426": {
+        "display_name": "Jam Tracks",
+        "category": null,
+        "background_url": "https://cdn2.unrealengine.com/default-sparks-sectionbg-v1-1920x1080-9b27879ce008.jpg",
+        "group_count": 3,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
+        ]
+    },
+    "ClassicFireGeo": {
+        "display_name": "Vehicle Accessories",
+        "category": "Start Your Engines",
+        "background_url": "https://cdn2.unrealengine.com/default-delmar-v1-1920x1080-ff95861876f9.png",
+        "group_count": 1,
+        "billboard": 0,
+        "contexts": [
+            "battleRoyale",
+            "delMar",
+            "juno",
+            "sparks"
+        ],
+        "release_dates": [
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z",
+            "2025-04-26T00:00:00.000Z"
         ]
     }
 }
