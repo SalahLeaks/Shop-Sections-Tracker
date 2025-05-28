@@ -157,21 +157,16 @@ async def process_shop_data():
                 embed_dict = create_embed_for_section(section, new_section)
                 embeds_to_send.append(embed_dict)
 
-        # Send embeds: ping only on the first if multiple
+        # Send embeds: ping only on the first message, even if only one
         if embeds_to_send:
-            # If more than one, ping on the first embed
-            if len(embeds_to_send) > 1:
-                # First embed with ping
-                await send_to_discord({
-                    "content": f"<@&{ROLE_ID}>",
-                    "embeds": [embeds_to_send[0]]
-                })
-                # Subsequent embeds one by one
-                for embed in embeds_to_send[1:]:
-                    await send_to_discord({"embeds": [embed]})
-            else:
-                # Only one embed, no ping
-                await send_to_discord({"embeds": [embeds_to_send[0]]})
+            # Ping on first embed regardless of count
+            await send_to_discord({
+                "content": f"<@&{ROLE_ID}>",
+                "embeds": [embeds_to_send[0]]
+            })
+            # Subsequent embeds, if any
+            for embed in embeds_to_send[1:]:
+                await send_to_discord({"embeds": [embed]})
 
         # Update stored data if changed
         if old_data != new_data:
