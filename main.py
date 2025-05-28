@@ -15,6 +15,7 @@ logging.basicConfig(
 # Constants
 API_URL = "https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game/mp-item-shop"
 WEBHOOK_URL = "YOUR_WEBHOOK_URL"
+ROLE_ID = "YOUR_ROLE_ID_HERE"  # Discord role ID to ping
 CHECK_INTERVAL = 60  # seconds
 
 # Load old shop data from a file
@@ -40,11 +41,9 @@ def to_discord_timestamp(dt):
     unix_ts = int(dt.timestamp())
     return f"<t:{unix_ts}:R>"
 
-# Send data to Discord webhook
-async def send_to_discord(embed_dict):
+# Send data to Discord webhook; accepts a full payload dict
+async def send_to_discord(payload):
     headers = {"Content-Type": "application/json"}
-    payload = {"embeds": [embed_dict]}
-
     try:
         response = requests.post(WEBHOOK_URL, json=payload, headers=headers)
         if response.status_code == 204:
@@ -53,7 +52,6 @@ async def send_to_discord(embed_dict):
             logging.error(f"Failed to send message: {response.status_code} - {response.text}")
     except requests.RequestException as e:
         logging.error(f"Error sending data to Discord: {e}")
-
     await asyncio.sleep(1)  # Avoid hitting rate limits
 
 # Create an embed for a given section of the shop
@@ -87,7 +85,6 @@ def create_embed_for_section(section, new_section):
 
     second_row_fields.append({"name": "**Group Count**", "value": str(new_section["group_count"]), "inline": True})
 
-    # Move the "billboard" field after "group_count"
     if new_section["billboard"] > 0:
         second_row_fields.append({"name": "**Billboard**", "value": str(new_section["billboard"]), "inline": True})
 
@@ -137,7 +134,7 @@ async def process_shop_data():
 
         logging.info(f"Processing {len(sections)} shop sections...")
 
-        tasks = []
+        embeds_to_send = []
         for section in sections:
             section_id = section.get("sectionID", "N/A")
             display_name = section.get("displayName", "N/A")
@@ -155,15 +152,28 @@ async def process_shop_data():
 
             new_data[section_id] = new_section
 
-            # Detect new section IDs only
             if section_id not in old_data:
                 logging.info(f"New section detected: {display_name} (ID: {section_id})")
                 embed_dict = create_embed_for_section(section, new_section)
-                tasks.append(send_to_discord(embed_dict))
+                embeds_to_send.append(embed_dict)
 
-        if tasks:
-            await asyncio.gather(*tasks)
+        # Send embeds: ping only on the first if multiple
+        if embeds_to_send:
+            # If more than one, ping on the first embed
+            if len(embeds_to_send) > 1:
+                # First embed with ping
+                await send_to_discord({
+                    "content": f"<@&{ROLE_ID}>",
+                    "embeds": [embeds_to_send[0]]
+                })
+                # Subsequent embeds one by one
+                for embed in embeds_to_send[1:]:
+                    await send_to_discord({"embeds": [embed]})
+            else:
+                # Only one embed, no ping
+                await send_to_discord({"embeds": [embeds_to_send[0]]})
 
+        # Update stored data if changed
         if old_data != new_data:
             logging.info("New shop data detected, updating old data file...")
             save_data(new_data)
@@ -186,5 +196,5 @@ async def main_loop():
         await asyncio.sleep(CHECK_INTERVAL)
 
 if __name__ == "__main__":
-    logging.info("Starting Fortnite shop checker...")
+    logging.info("Starting Fortnite shop checker…")
     asyncio.run(main_loop())
