@@ -14,7 +14,8 @@ logging.basicConfig(
 
 # Constants
 API_URL = "https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game/mp-item-shop"
-WEBHOOK_URL = "YOUR_WEBHOOK_URL"
+WEBHOOK_URL = "......."
+SHOP_PING_USER_ID = "........"
 CHECK_INTERVAL = 60  # seconds
 
 # Load old shop data from a file
@@ -43,7 +44,10 @@ def to_discord_timestamp(dt):
 # Send data to Discord webhook
 async def send_to_discord(embed_dict):
     headers = {"Content-Type": "application/json"}
-    payload = {"embeds": [embed_dict]}
+    payload = {
+    "content": f"<@{SHOP_PING_USER_ID}>",
+    "embeds": [embed_dict]
+}
 
     try:
         response = requests.post(WEBHOOK_URL, json=payload, headers=headers)
